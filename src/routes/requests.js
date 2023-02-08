@@ -10,14 +10,20 @@ const router = express.Router();
  *      properties:
  *        id:
  *          type: integer
- *          description: id of user
+ *          description: id del usuario
  *        name:
  *          type: string
- *          description: name of user
+ *          description: nombre del usuario
+ *        edad:
+ *          type: integerimage.png
+ *          description: edad del usuario
  *      required:
+ *        - id
  *        - name
+ *        - edad
  *      example:
- *        - name: david
+ *        name: david
+ *        edad: 19
  */
 
 /**

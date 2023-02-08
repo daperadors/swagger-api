@@ -8,7 +8,7 @@ const swaggerSpec = {
   definition: {
     openapi: "3.0.0",
     info: {
-      title: "Swagger API",
+      title: "Swagger API - David",
       version: "1.0.0"
     },
     servers: [
@@ -22,7 +22,6 @@ const swaggerSpec = {
 
 const app = express();
 const port = 3000;
-
 
 app.use(express.json());
 app.use("/api", requestsRoute);
